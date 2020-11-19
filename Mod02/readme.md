@@ -28,7 +28,7 @@ Así mismo haremos uso de la herramienta de Diseñador de Clases de VBStudio 201
 Una vez que tenemos definidas las clases abriremos un nuevo proyecto en VBStudio (en el documento pone WPF FrameWork 4.7) , y añadiremos un nuevo Diagrama de Clases.
 yo he utilizado un MVC F 4.8.
 
-![c1](imagenes/c1.png)
+![c1](imagenes/c1.PNG)
 
 una vez creadas las clases pulsamos sobre ella botón derecho ver código y modificamos el get de las propiedades get => default(<Tipo>); 
 
@@ -47,13 +47,13 @@ Para finalizar añadiremos la asociación entre las dos clases
  
  Para ello en la barra de Herramientas pinchamos asociación despues click en Photo y despues click En Comment
  
-  ![c2](imagenes/c2.png)
+  ![c2](imagenes/c2.PNG)
  
  Le cambiamos el nombre por PhotoComent y grabamos el diagrama.
  
 Es posible mostrarla como asociación o como propiedad  
  
-  ![c3](imagenes/c3.png)
+  ![c3](imagenes/c3.PNG)
  
  
  La asociacion lo que nos hace es una relación 1 : 1  
@@ -63,7 +63,7 @@ Es posible mostrarla como asociación o como propiedad
  
  y con ello ya estaría el Modelo de Clases.
  
-  ![c4](imagenes/c4.png)
+  ![c4](imagenes/c4.PNG)
  
  ````c# 
 using System;
@@ -172,9 +172,9 @@ namespace DesginProject
 
  Por  último habría que presentar un boceto de la vista FotoGalleria
 
-  ![c5](imagenes/c5.png)
+  ![c5](imagenes/c5.PNG)
 
 
   y Detalle Photo.
 
-![c5](imagenes/c5.png)
+![c6](imagenes/c6.PNG)
