@@ -1,0 +1,15 @@
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\bin\Debug\netcoreapp2.1\2_StaticFilesExample.deps.json
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\bin\Debug\netcoreapp2.1\2_StaticFilesExample.runtimeconfig.json
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\bin\Debug\netcoreapp2.1\2_StaticFilesExample.runtimeconfig.dev.json
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\bin\Debug\netcoreapp2.1\2_StaticFilesExample.dll
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\bin\Debug\netcoreapp2.1\2_StaticFilesExample.pdb
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\obj\Debug\netcoreapp2.1\2_StaticFilesExample.csprojAssemblyReference.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\obj\Debug\netcoreapp2.1\2_StaticFilesExample.AssemblyInfoInputs.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\obj\Debug\netcoreapp2.1\2_StaticFilesExample.AssemblyInfo.cs
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\obj\Debug\netcoreapp2.1\2_StaticFilesExample.csproj.CoreCompileInputs.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\obj\Debug\netcoreapp2.1\2_StaticFilesExample.RazorAssemblyInfo.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\obj\Debug\netcoreapp2.1\2_StaticFilesExample.RazorAssemblyInfo.cs
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\obj\Debug\netcoreapp2.1\2_StaticFilesExample.RazorTargetAssemblyInfo.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\obj\Debug\netcoreapp2.1\2_StaticFilesExample.dll
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\obj\Debug\netcoreapp2.1\2_StaticFilesExample.pdb
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\StaticFilesExample\obj\Debug\netcoreapp2.1\2_StaticFilesExample.genruntimeconfig.cache

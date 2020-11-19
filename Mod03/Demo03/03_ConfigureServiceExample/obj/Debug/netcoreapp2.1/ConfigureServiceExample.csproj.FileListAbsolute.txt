@@ -1,0 +1,15 @@
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\bin\Debug\netcoreapp2.1\ConfigureServiceExample.deps.json
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\bin\Debug\netcoreapp2.1\ConfigureServiceExample.runtimeconfig.json
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\bin\Debug\netcoreapp2.1\ConfigureServiceExample.runtimeconfig.dev.json
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\bin\Debug\netcoreapp2.1\ConfigureServiceExample.dll
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\bin\Debug\netcoreapp2.1\ConfigureServiceExample.pdb
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\obj\Debug\netcoreapp2.1\ConfigureServiceExample.csprojAssemblyReference.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\obj\Debug\netcoreapp2.1\ConfigureServiceExample.AssemblyInfoInputs.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\obj\Debug\netcoreapp2.1\ConfigureServiceExample.AssemblyInfo.cs
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\obj\Debug\netcoreapp2.1\ConfigureServiceExample.csproj.CoreCompileInputs.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\obj\Debug\netcoreapp2.1\ConfigureServiceExample.RazorAssemblyInfo.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\obj\Debug\netcoreapp2.1\ConfigureServiceExample.RazorAssemblyInfo.cs
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\obj\Debug\netcoreapp2.1\ConfigureServiceExample.RazorTargetAssemblyInfo.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\obj\Debug\netcoreapp2.1\ConfigureServiceExample.dll
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\obj\Debug\netcoreapp2.1\ConfigureServiceExample.pdb
+D:\20_610\20486\20486D_Tareas\Mod03\Demo03\03_ConfigureServiceExample\obj\Debug\netcoreapp2.1\ConfigureServiceExample.genruntimeconfig.cache
