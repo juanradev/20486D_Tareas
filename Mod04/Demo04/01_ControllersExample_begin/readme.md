@@ -1,13 +1,13 @@
-## Módulo 4: Desarrollo de controladores
+## Mï¿½dulo 4: Desarrollo de controladores
 
-### Lección 1: Escritura de controladores y acciones
+### Lecciï¿½n 1: Escritura de controladores y acciones
 
-#### Demostración: cómo escribir controladores y acciones
+#### Demostraciï¿½n: cï¿½mo escribir controladores y acciones
 
 Usamos el repositorio 01_ControllersExample_begin
 
 
-Nos creamos el HomeController.cs que usará la clase ExampleModel de .Models
+Nos creamos el HomeController.cs que usarï¿½ la clase ExampleModel de .Models
 
 ```c# 
 namespace ControllersExample.Models
@@ -19,7 +19,7 @@ namespace ControllersExample.Models
 }
 ````
 
-Se trata de ver las diferentes formas de pasar información a las vistas.
+Se trata de ver las diferentes formas de pasar informaciï¿½n a las vistas.
 
 ---
 
@@ -39,7 +39,7 @@ public class HomeController : Controller
             // y lo pinta                        @Model.Sentence
         }
 ````
-![c1](imagenes/c1.png)  
+![c1](imagenes/c1.PNG)  
 
 
 ---
@@ -53,7 +53,7 @@ ParamExample pintara el id que se le pasa por parametro  Home/Action/id
             return Content("My param is: " + id);  // directamente escribe el parametro id
         }
 ````   
-![c2](imagenes/c2.png)  
+![c2](imagenes/c2.PNG)  
 
 
 ---
@@ -71,7 +71,7 @@ RouteDataExample accede a los RouteDataExample
 
         }
 ````  
-![c3](imagenes/c3.png)  
+![c3](imagenes/c3.PNG)  
 
 
 ---
@@ -86,7 +86,7 @@ Acceso a ViewBag.Message
             // pinta  The Message is: @ViewBag.Message
         }
 ````  
-![c4](imagenes/c4.png)  
+![c4](imagenes/c4.PNG)  
 
 
 
@@ -106,4 +106,4 @@ Acceso a ViewData["Message"]
 
     }
 ````
-![c5](imagenes/c5.png)  
+![c5](imagenes/c5.PNG)  
