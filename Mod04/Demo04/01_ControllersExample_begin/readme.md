@@ -1,13 +1,13 @@
-## M�dulo 4: Desarrollo de controladores
+## Módulo 4: Desarrollo de controladores
 
-### Lecci�n 1: Escritura de controladores y acciones
+### Lección 1: Escritura de controladores y acciones
 
-#### Demostraci�n: c�mo escribir controladores y acciones
+#### Demostración: cómo escribir controladores y acciones
 
 Usamos el repositorio 01_ControllersExample_begin
 
 
-Nos creamos el HomeController.cs que usar� la clase ExampleModel de .Models
+Nos creamos el HomeController.cs que usará la clase ExampleModel de .Models
 
 ```c# 
 namespace ControllersExample.Models
@@ -19,7 +19,7 @@ namespace ControllersExample.Models
 }
 ````
 
-Se trata de ver las diferentes formas de pasar informaci�n a las vistas.
+Se trata de ver las diferentes formas de pasar información a las vistas.
 
 ---
 
