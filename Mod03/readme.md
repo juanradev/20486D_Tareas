@@ -8,4 +8,8 @@
 .  [Lesson 2: Configuring Services: Demonstration: How to Use Dependency Injection](Demo03/03_ConfigureServiceExample)
 
 
+### Lab: Configuring Middleware and Services in ASP.NET Core
+
+.  [Pool-questions](Lab03)
+
  

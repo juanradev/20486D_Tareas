@@ -4,7 +4,7 @@ Juan Ramón Díaz Fernández
 
 
 
- .  [Module 3: Configuring Middleware and Services in ASP.NET Core (Demo....)](./Mod03/)     19/11/2020
+ .  [Module 3: Configuring Middleware and Services in ASP.NET Core (demo y labs) ](./Mod03/)     19/11/2020
 
  .  [Module 2: Exploring ASP.NET Core MVC (Laboratorio)](./Mod02/)     18/11/2020
 

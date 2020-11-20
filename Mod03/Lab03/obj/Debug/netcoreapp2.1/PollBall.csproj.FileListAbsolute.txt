@@ -1,0 +1,15 @@
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\obj\Debug\netcoreapp2.1\PollBall.csprojAssemblyReference.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\obj\Debug\netcoreapp2.1\PollBall.AssemblyInfoInputs.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\obj\Debug\netcoreapp2.1\PollBall.AssemblyInfo.cs
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\obj\Debug\netcoreapp2.1\PollBall.csproj.CoreCompileInputs.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\obj\Debug\netcoreapp2.1\PollBall.RazorAssemblyInfo.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\obj\Debug\netcoreapp2.1\PollBall.RazorAssemblyInfo.cs
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\bin\Debug\netcoreapp2.1\PollBall.deps.json
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\bin\Debug\netcoreapp2.1\PollBall.runtimeconfig.json
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\bin\Debug\netcoreapp2.1\PollBall.runtimeconfig.dev.json
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\bin\Debug\netcoreapp2.1\PollBall.dll
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\bin\Debug\netcoreapp2.1\PollBall.pdb
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\obj\Debug\netcoreapp2.1\PollBall.RazorTargetAssemblyInfo.cache
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\obj\Debug\netcoreapp2.1\PollBall.dll
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\obj\Debug\netcoreapp2.1\PollBall.pdb
+D:\20_610\20486\20486D_Tareas\Mod03\Lab03\obj\Debug\netcoreapp2.1\PollBall.genruntimeconfig.cache
