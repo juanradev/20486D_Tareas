@@ -6,5 +6,9 @@
 .  [Lesson 3: Writing Action Filters: Demonstration: How to Create and Use Action Filters](Demo04/03_FiltersExample_begin)
 
 
+## LAB: Module 4: Developing Controllers
+
+.  [Lab: Developing Controllers](Lab04)
+
 
  

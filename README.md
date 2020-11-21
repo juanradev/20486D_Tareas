@@ -4,7 +4,7 @@ Juan Ramón Díaz Fernández
 
 
  
- .  [Module 4: Developing Controllers (demos)](./Mod04/)     20/11/2020
+ .  [Module 4: Developing Controllers (demo y labs) ](./Mod04/)     20/11/2020
 
  .  [Module 3: Configuring Middleware and Services in ASP.NET Core (demo y labs) ](./Mod03/)     19/11/2020
 

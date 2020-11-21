@@ -11799,11 +11799,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\02_RoutesExample_begin\\RoutesExample\\RoutesExample.csproj",
+      "projectUniqueName": "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\Demo04\\02_RoutesExample_begin\\RoutesExample\\RoutesExample.csproj",
       "projectName": "RoutesExample",
-      "projectPath": "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\02_RoutesExample_begin\\RoutesExample\\RoutesExample.csproj",
+      "projectPath": "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\Demo04\\02_RoutesExample_begin\\RoutesExample\\RoutesExample.csproj",
       "packagesPath": "C:\\Users\\juan_\\.nuget\\packages\\",
-      "outputPath": "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\02_RoutesExample_begin\\RoutesExample\\obj\\",
+      "outputPath": "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\Demo04\\02_RoutesExample_begin\\RoutesExample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

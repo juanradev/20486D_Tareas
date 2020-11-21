@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YwFF7ogVb5utmgCb7//950nDMWp/De+CGxYhkrDsrt7UR7HJ4pGNxnxcmC2EoZe88s7SSQfgukhGSZizMBI4Mw==",
+  "dgSpecHash": "wIbFm97DVqpEv1Bs80G6fLhPfO9JxGJJVwE06GYG885Zz2PoXXS9CdzCdbosS6CCKfzmS1Cvv+XLdCAFYggirw==",
   "success": true,
-  "projectFilePath": "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\03_FiltersExample_begin\\FiltersExample\\FiltersExample.csproj",
+  "projectFilePath": "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\Demo04\\03_FiltersExample_begin\\FiltersExample\\FiltersExample.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

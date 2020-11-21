@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\03_FiltersExample_begin\\FiltersExample\\FiltersExample.csproj": {}
+    "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\Demo04\\03_FiltersExample_begin\\FiltersExample\\FiltersExample.csproj": {}
   },
   "projects": {
-    "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\03_FiltersExample_begin\\FiltersExample\\FiltersExample.csproj": {
+    "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\Demo04\\03_FiltersExample_begin\\FiltersExample\\FiltersExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\03_FiltersExample_begin\\FiltersExample\\FiltersExample.csproj",
+        "projectUniqueName": "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\Demo04\\03_FiltersExample_begin\\FiltersExample\\FiltersExample.csproj",
         "projectName": "FiltersExample",
-        "projectPath": "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\03_FiltersExample_begin\\FiltersExample\\FiltersExample.csproj",
+        "projectPath": "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\Demo04\\03_FiltersExample_begin\\FiltersExample\\FiltersExample.csproj",
         "packagesPath": "C:\\Users\\juan_\\.nuget\\packages\\",
-        "outputPath": "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\03_FiltersExample_begin\\FiltersExample\\obj\\",
+        "outputPath": "D:\\20_610\\20486\\20486D_Tareas\\Mod04\\Demo04\\03_FiltersExample_begin\\FiltersExample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
