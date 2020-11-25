@@ -12,4 +12,4 @@
 
 ### Lab Developing Views 
 
-[Laboratorio](Labs05/01_CitiesWebsite_begin)
+[Laboratorio](Labs05)
