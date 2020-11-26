@@ -2,6 +2,8 @@
 
 Juan Ramón Díaz Fernández 
 
+ .  [Module 7: Using Entity Framework Core in ASP.NET Core (demo) ](./Mod07/)     26/11/2020
+
  .  [Module 6: Developing Models (demo y labs) ](./Mod06/)     25/11/2020
 
  .  [Module 5: Developing Views (demo y labs) ](./Mod05/)     24/11/2020
