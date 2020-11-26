@@ -107,12 +107,12 @@ public IActionResult Index()
 ````
 
 
-![c4](images/c4.PNG)
+![c4](Images/c4.PNG)
 
 
 No pulses el buton porque la accion create no está implementada
 
-![c5](images/c5.PNG)
+![c5](Images/c5.PNG)
 
 
 Para la Accion create vamos a implementar dos metodos (GET) y (POST)
@@ -333,24 +333,24 @@ Ahora nos metemos con la Create.cshtml
 
 Probamos la aplicacion
 
-![c6](images/c6.PNG)
+![c6](Images/c6.PNG)
 
 
 Al hacer click esto te pasaría si no le hubiesemos pasado el modelo  
 
-![c7](images/c7.PNG)
+![c7](Images/c7.PNG)
 
 Pero como nosotros si se lo pasamos..  
 
-![c8](images/c8.PNG)
+![c8](Images/c8.PNG)
 
 abrimos el formulario sin problema  
 
-![c9](images/c9.PNG)
+![c9](Images/c9.PNG)
 
 y añadimos nuestra mariposa  
 
-![c10](images/c10.PNG)
+![c10](Images/c10.PNG)
 
 #### Exercise 3: Adding Validation
 
@@ -444,7 +444,7 @@ And finally modificamos el POST Create con ModelState.IsValid
         }
 ````	
 
-![c11](images/c11.PNG)
+![c11](Images/c11.PNG)
 
 
 Y para terminar un custom Validation
@@ -498,4 +498,4 @@ using ButterfliesShop.Validators;
 y decoramos quanty añadiendo
 [MaxButterflyQuantityValidation(50)]
 
-![c12](images/c12.PNG)
+![c12](Images/c12.PNG)
