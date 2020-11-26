@@ -10,6 +10,25 @@ Se trata de utilizar ViewComponents por lo que nos vamos a crear uno
 
 ![c1](imagenes/c1.PNG)
 
+```
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc; // usamos Microsoft.AspNetCore.Mvc;
+
+namespace ViewComponentsExample.ViewComponents
+{
+    public class PersonCardViewComponent : ViewComponent // que herede de ViewComponent
+    {
+        public Task<IViewComponentResult> InvokeAsync(int id)                            //metodo invokeAsync (recib entero es el id de la lista de personas)
+        {
+            return Task.FromResult<IViewComponentResult>(View("CardDesign", id));
+        }
+    }
+}
+````
+
 Vamos a utilizar la vista parcial anterior pero para tener un orden la ublcamos en la siguiente carpeta y la cambiamos de nombre
 
 ![c2](imagenes/c2.PNG)
@@ -43,7 +62,7 @@ Modificamos el index.cshtml
 				<!-- Llamada a pagina parcial -->
                 <!--@@await Html.PartialAsync("_CardDesign", cardIndex);-->
 				<!-- Llamada a Component -->
-                @await Component.InvokeAsync("PersonCard", cardIndex);
+                @await Component.InvokeAsync("PersonCard", cardIndex);  <!--lamada al ViewComponent pasando por parametro cardIndex-->
 
             }
         </tr>
@@ -57,6 +76,4 @@ y comprobamos que todo funciona
 
 ![c2](imagenes/c3.PNG)
 
-Bueno pues parece que es una chorrada pero no,
 
-ahora a repasar de nuevo este último tema ;)
