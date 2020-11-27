@@ -103,7 +103,7 @@ namespace Cupcakes.Models
 
 la tarea 2 es crear el DBContext   
 
-![c1](imagenes/C1.PNG)  
+![c1](imagenes/c1.PNG)  
 
 ````
 using System;
@@ -429,7 +429,7 @@ Create (get y Post)
             return View(cupcake);
         }
 ````
-Edit (get y Post)  
+Edit (get y Post)  OJO Al utilizar TryUpdateModelAsync y pasarle cdada campo debemos verificar si cambia al hacer cualquier migraciones
 ````
         [HttpGet]
         public IActionResult Edit(int id)
@@ -453,8 +453,8 @@ Edit (get y Post)
                                      c => c.BakeryId,
                                      c => c.CupcakeType,
                                      c => c.Description,
-                                     c => c.GlutenFree,
-                                     c => c.Price);
+                                     c => c.GlutenFree, 
+                                     c => c.Price); /// si añado un nuevo campo ó quito un campo en el modelo debemos ver si se actualiza automaticamente
             if (isUpdated == true)
             {
                 _repository.SaveChanges();
@@ -628,6 +628,33 @@ Ejecutamos en la Consola Nuget
 Add-Migration AddCupcakeCaloricValue
 Update-Database
 ````
+Ojo porque no viene en el Lak
+si no camabiamos esto en el controlador no actualizará el campo nuevo
+
+````
+      [HttpPost, ActionName("Edit")]
+        public async Task<IActionResult> EditPost(int id)
+        {
+            var cupcakeToUpdate = _repository.GetCupcakeById(id);
+            bool isUpdated = await TryUpdateModelAsync<Cupcake>(
+                                     cupcakeToUpdate,
+                                     "",
+                                     c => c.BakeryId,
+                                     c => c.CupcakeType,
+                                     c => c.Description,
+                                     c => c.GlutenFree,
+                                     c => c.Price,
+                                     c => c.CaloricValue); // debemos añadir a mano el nuevo campo 
+            if (isUpdated == true)
+            {
+                _repository.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            PopulateBakeriesDropDownList(cupcakeToUpdate.BakeryId);
+            return View(cupcakeToUpdate);
+        }
+````
+
 
 Y observamos los cambios
 
