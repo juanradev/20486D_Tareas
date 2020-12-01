@@ -506,8 +506,8 @@ y añadiremos estos script jquery a BuyTickets.cshtml
 
 
 nos situamos sobre pacage.json y restauramos paquetes   
-![c14](imagenes/C14.PNG)  
-![c15](imagenes/C15.PNG)  
+![c14](imagenes/c14.PNG)  
+![c15](imagenes/c15.PNG)  
 
 Compilamos y probamos   
 
