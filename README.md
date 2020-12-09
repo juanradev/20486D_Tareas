@@ -2,6 +2,8 @@
 
 Juan Ramón Díaz Fernández 
 
+.  [Module 9:Client-Side Development (demo y labs (lab pendiente))](./Mod09/)     08/12/2020
+
  .  [Module 8: Using Layouts, CSS and JavaScript in ASP.NET Core MVC (demo y labs)](./Mod08/)     27/11/2020
 
  .  [Module 7: Using Entity Framework Core in ASP.NET Core (demo y labs)](./Mod07/)     26/11/2020
