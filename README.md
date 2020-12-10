@@ -3,6 +3,8 @@
 Juan Ramón Díaz Fernández 
 
 
+ .  [Module 12: Performance and Communication (demo 1 y 2 pendientes demo 3 y labs)](./Mod12/)    10/12/2020
+
  .  [Module 11: Managing Security (demo y labs)](./Mod11/)    10/12/2020
 
  .  [Module 9:Client-Side Development (demo y labs (lab pendiente))](./Mod09/)     08/12/2020
