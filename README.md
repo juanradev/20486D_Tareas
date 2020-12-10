@@ -3,7 +3,7 @@
 Juan Ramón Díaz Fernández 
 
 
- .  [Module 11: Managing Security (demo y labs (lab pendiente))](./Mod11/)    10/12/2020
+ .  [Module 11: Managing Security (demo y labs)](./Mod11/)    10/12/2020
 
  .  [Module 9:Client-Side Development (demo y labs (lab pendiente))](./Mod09/)     08/12/2020
 
