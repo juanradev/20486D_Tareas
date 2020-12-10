@@ -70,7 +70,7 @@ eh aqui el problema!!!
             var product = products.Where(p => p.Id != id).FirstOrDefault();
             return View(product);
         }
-````
+``````
 
 
 Pero para eso vamos a testear!
@@ -91,7 +91,8 @@ Instalamos Install-Package Microsoft.AspNetCore.Mvc -ProjectName ProductsWebsite
 
 
 creamos el FakeProductRepository
-````
+
+``````
 
 using System;
 using System.Collections.Generic;
@@ -114,11 +115,12 @@ namespace ProductsWebsite.Tests
         }
     }
 }
-````
+``````
 
 
 Una vez que tenemos el FakeRepository implementamos el ProductControllerTest
-````
+
+``````
 
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -161,7 +163,8 @@ namespace ProductsWebsite.Tests
         }
     }
 }
-````
+``````
+
 Guardamos y Ejecutamos todas las pruebas  
 
 ![c3](imagenes/c3.PNG)  
