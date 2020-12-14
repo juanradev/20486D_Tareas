@@ -9,7 +9,7 @@ Juan Ramón Díaz Fernández
  
  .  [Module 10: Testing and Troubleshooting demos (lab pendiente)](./Mod10/)	10/12/2020
 
- .  [Module 9:Client-Side Development (demo y labs (lab pendiente))](./Mod09/)     08/12/2020
+ .  [Module 9:Client-Side Development (demo y labs)](./Mod09/)     08/12/2020
 
  .  [Module 8: Using Layouts, CSS and JavaScript in ASP.NET Core MVC (demo y labs)](./Mod08/)     27/11/2020
 
