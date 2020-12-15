@@ -2,6 +2,7 @@
 
 Juan Ramón Díaz Fernández 
 
+ .  [Module 13: Implementing Web APIs (demos)  (lab PENDIENTE)](./Mod13/)    15/12/2020
 
  .  [Module 12: Performance and Communication (demo 1 y 2; pendientes demo 3 y labs)](./Mod12/)    10/12/2020
 
