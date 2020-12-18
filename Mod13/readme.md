@@ -10,7 +10,7 @@
 
 ### Laboratorios
 
-  #### [Laboratorio](Labfiles) PENDIENTE
+  #### [Laboratorio](Labs) PENDIENTE
   
   
   
