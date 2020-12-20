@@ -9,3 +9,5 @@ Vamos a subir una aplicación a Azure
 Lo primero de todo ver si la aplicacion funciona en local
 
 Abrimos 02_AzureStorageDemo_begin, ejecuamos el npm install y ejecutamos 
+
+![c1](imagenes/c1.PNG)
