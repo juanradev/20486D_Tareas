@@ -7,6 +7,8 @@ using Microsoft.Extensions.Configuration;
 using System.IO;
 using AzureStorageDemo.Models;
 using AzureStorageDemo.Data;
+using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Blob;
 
 namespace AzureStorageDemo.Controllers
 {
@@ -18,9 +20,12 @@ namespace AzureStorageDemo.Controllers
 
         public BlobController(IConfiguration configuration, PhotoContext dbContext)
         {
+
+
+
             _dbContext = dbContext;
             _configuration = configuration;
-            _connectionString = _configuration.GetConnectionString("{your_connection_string_name}");
+            _connectionString = _configuration.GetConnectionString("AzureStorageConnectionString-1");
         }
 
         [HttpGet]
@@ -40,11 +45,14 @@ namespace AzureStorageDemo.Controllers
                 {
                     photo.ImageMimeType = photo.PhotoAvatar.ContentType;
                     photo.ImageName = Path.GetFileName(photo.PhotoAvatar.FileName);
-                    using (var memoryStream = new MemoryStream())
-                    {
-                        photo.PhotoAvatar.CopyTo(memoryStream);
-                        photo.PhotoFile = memoryStream.ToArray();
-                    }
+                    /* using (var memoryStream = new MemoryStream())
+                     {
+                         photo.PhotoAvatar.CopyTo(memoryStream);
+                         photo.PhotoFile = memoryStream.ToArray();
+                     }
+                    */
+                    await UploadAsync(photo.PhotoAvatar);
+
                     _dbContext.Add(photo);
                     _dbContext.SaveChanges();
                     return RedirectToAction("Index", "Home");
@@ -52,6 +60,25 @@ namespace AzureStorageDemo.Controllers
                 return View(photo);
             }
             return View(photo);
+        }
+
+
+        public async Task UploadAsync(IFormFile photo)
+        {
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse(_connectionString);
+            CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
+            CloudBlobContainer container = blobClient.GetContainerReference("myimagecontainer");
+
+            if (await container.CreateIfNotExistsAsync())
+            {
+                await container.SetPermissionsAsync(
+                new BlobContainerPermissions
+                {
+                    PublicAccess = BlobContainerPublicAccessType.Blob
+                });
+            }
+            CloudBlockBlob blob = container.GetBlockBlobReference(Path.GetFileName(photo.FileName));
+            await blob.UploadFromStreamAsync(photo.OpenReadStream());
         }
     }
 }
