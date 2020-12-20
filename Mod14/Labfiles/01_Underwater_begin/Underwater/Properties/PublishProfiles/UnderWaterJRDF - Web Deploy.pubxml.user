@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAirt6oZQzrE+GvHUxsSvUSwAAAAACAAAAAAAQZgAAAAEAACAAAABic6hFRU6HYoG9aZYM4yGLf8tQ49zKPW4o2m8sDzS+HwAAAAAOgAAAAAIAACAAAAA6RySdjKFUVccW1wb3aH4GE914I+juP4z9zIS7Wh6YA4AAAAAbQGO9Jl33TxqKLSAkK7yf+1ly9wt79qtrQ1Ksw/mVdNiElBWty8tffzoNkqXXMEofvVqGj6BQT32RLQkRI2H3KRG3VjvuNAJBpzgR/a6Z+tPkAy/lYorSwedtlex4hEfUC8SygC3fno0Vr1t6IGzC+SqfCscUA6rx97j7RaRXNEAAAAARtQjzOjPnzg+AThRTCMRHTS71u6bhti4c2IzWztvI+Jc31O0hLu/sPfr9TuvXUWAIi4V8IIo6DeaDnjB/b0i/</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:mysqlserverjrdf.database.windows.net,1433%3bInitial Catalog=UnderWaterDB%3bUser Id=azureuser%40mysqlserverjrdf.database.windows.net%3bPassword=3cxcx75bb%24%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Underwater.Data.UnderwaterContext">
+      <Value>Data Source=tcp:mysqlserverjrdf.database.windows.net,1433%3bInitial Catalog=UnderWaterDB%3bUser Id=azureuser%40mysqlserverjrdf.database.windows.net%3bPassword=3cxcx75bb%24%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
