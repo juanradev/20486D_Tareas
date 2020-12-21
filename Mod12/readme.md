@@ -6,7 +6,7 @@
 
 2. #### [Lesson 2: Managing State: Demonstration: How to Store and Retrieve State Information](Demos/02_StateExample_begin)
 
-3. #### [Lesson 3: Two-Way Communication: How to Use SignalR](Demos/01_ElectricStore_begin) 
+3. #### [Lesson 3: Two-Way Communication: How to Use SignalR](Demos/03_SignalRExample_begin)
 
 ### Laboratorios
 
